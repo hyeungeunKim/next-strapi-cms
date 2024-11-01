@@ -68,7 +68,7 @@ export default function Profile() {
 
   return (
     <div>
-      <PageHeader heading="Our Blog" text="Checkout Something Cool" />
+      <PageHeader heading="퍼플 가이드" text="퍼플 가이드 항목을 찾아보세요." />
       <Blog data={data}>
         {meta!.pagination.start + meta!.pagination.limit <
           meta!.pagination.total && (
